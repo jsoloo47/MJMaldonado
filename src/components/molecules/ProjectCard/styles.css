@@ -1,0 +1,76 @@
+.project-card {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+.project-card__image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 481px;
+  height: 476px;
+  border-radius: 50%;
+}
+.JUI {
+  background: linear-gradient(
+    180deg,
+    #cddbd3 0%,
+    #e1f9f3 50.48%,
+    #ced5dc 97.92%,
+    #cdd4db 100%
+  );
+}
+.CCE {
+  background: linear-gradient(
+    180deg,
+    #c0d6ee 0%,
+    #dce2eb 0%,
+    #e1e7f9 0.01%,
+    #cee8f2 57.97%,
+    #c0d6ee 100%,
+    #c0d6ee 100%
+  );
+}
+.TWIN {
+  background: linear-gradient(180deg, #e8c3cf 0%, #dbc0d0 50.48%, #ffd2e2 100%);
+}
+
+.project-card__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+}
+
+.project-card__title {
+  margin-bottom: 1rem;
+  font-weight: 400;
+  font-size: 42px;
+  color: #262a4f;
+}
+.project-card__desc {
+  margin-bottom: 1rem;
+  font-weight: 400;
+  font-size: 15px;
+  color: #262a4f;
+}
+
+.project-card__tags {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.project-card__link {
+  font-weight: 900;
+  font-size: 14px;
+  color: #898ea2;
+  margin-top: 4rem;
+}
+
+.flipped {
+  flex-direction: row-reverse;
+}

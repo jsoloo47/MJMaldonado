@@ -1,0 +1,14 @@
+.project-card_tag {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4px 17px;
+  margin-right: 8px;
+
+  background: #f1f2f6;
+  border-radius: 20px;
+
+  font-weight: 400;
+  font-size: 14px;
+  color: #898ea2;
+}

@@ -1,0 +1,34 @@
+.navbar_main_container {
+  display: flex;
+  justify-content: space-between;
+  color: var(--nav-font-color);
+}
+.navbar_logo_container {
+  display: flex;
+  align-items: center;
+}
+.navbar_logo_container_firstLast {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 28px;
+  margin-left: 3rem;
+}
+
+.navbar_menu_container {
+  display: flex;
+  align-items: center;
+}
+
+.navbar_menu_container_list {
+  display: flex;
+  width: 300px;
+  justify-content: space-between;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.navbar_menu_container_list li:hover {
+  color: var(--nav-font-color-hover);
+}
