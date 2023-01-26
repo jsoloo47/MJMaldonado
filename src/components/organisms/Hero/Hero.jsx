@@ -11,6 +11,7 @@ function Hero() {
           I value empathy & collaboration
         </p>
       </div>
+      <div className="divider"></div>
       <div className="hero_content_col2">
         <h1 className="hero_content_col2_text">Welcome to my portfolio</h1>
         <p>

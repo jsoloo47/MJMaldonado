@@ -1,0 +1,408 @@
+.twin-hero-container {
+  display: flex;
+}
+
+.twin-hero-leftCol {
+  padding: 2rem 0 0 3rem;
+  width: 60%;
+}
+.twin-hero-left-title {
+  font-weight: 500;
+  font-size: 42px;
+  line-height: 62px;
+  /* identical to box height, or 148% */
+
+  color: rgba(100, 107, 121, 0.85);
+}
+.twin-hero-left-title-main {
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 75px;
+}
+
+.twin-hero-left-text {
+  font-weight: 500;
+  font-size: 21px;
+  line-height: 36px;
+}
+.twin-hero-left-text h2 {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 75px;
+  border-bottom: solid 1px black;
+}
+.twin-hero-left-text span {
+  color: #646b79;
+}
+/* Cards */
+.twin-card-container {
+  display: flex;
+  padding: 2rem 4rem;
+  gap: 2rem;
+}
+
+.twin-card {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 33%;
+}
+
+.twin-card-title {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 21px;
+}
+
+.twin-card-text {
+  height: 118px;
+  background: #f9f9f9;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  padding: 1rem;
+
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 40px;
+  overflow: scroll;
+}
+
+.twin-card-sub {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 21px;
+}
+.twin-card-sub-text {
+  height: 339px;
+
+  background: #f9f9f9;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 35px;
+  padding: 1rem;
+  overflow: scroll;
+}
+
+/* About the Client */
+.twin-client-container {
+  padding: 2rem 4rem;
+}
+
+.twin-client-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  font-size: 42px;
+  line-height: 62px;
+  margin-bottom: 2rem;
+}
+.twin-client-text {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 40px;
+  color: #646b79;
+}
+.bold {
+  font-weight: bold;
+  color: black;
+}
+
+.twin-client-text-card-container {
+  display: flex;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+.twin-client-text-card {
+  font-style: italic;
+  background: #e7eef3;
+  border-radius: 20px;
+  padding: 2rem;
+  width: 33%;
+}
+
+/* user */
+
+.twin-user-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+  font-size: 42px;
+  line-height: 62px;
+  color: rgba(100, 107, 121, 0.85);
+}
+.twin-user-sub-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  font-size: 42px;
+  line-height: 62px;
+  color: #222222;
+}
+
+.twin-user-card-container {
+  display: flex;
+  gap: 2rem;
+  padding: 2rem 4rem;
+}
+.twin-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.twin-card img {
+  width: 150px;
+  height: 150px;
+}
+
+.twin-card-content {
+  padding: 1.5rem 2rem;
+  background: #e7eef3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 32px;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 40px;
+
+  color: #646b79;
+}
+.twin-user-title-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.twin-cards-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 21px;
+  color: black;
+  border-bottom: solid 1px #222222;
+  margin-bottom: 2rem;
+}
+.twin-user-card1-ol {
+  list-style: decimal;
+  padding-left: 2rem;
+}
+.twin-card2-ul {
+  list-style: disc;
+  padding-left: 2rem;
+}
+
+.twin-post-card-info {
+  padding: 2rem 4rem;
+}
+
+.twin-post-card-content {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 36px;
+  color: #646b79;
+}
+
+/* GOOGLE RESPONSES CARDS */
+.twin-user-google-responses-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  padding: 2rem 4rem;
+}
+
+.twin-user-google-responses-card {
+  display: flex;
+  justify-content: space-between;
+
+  width: 70%;
+}
+
+.twin-user-google-responses-col2 {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 2rem;
+  background-color: #f2f2f2;
+}
+.twin-user-google-responses-col2 h2,
+.twin-user-google-responses-col2 h3 {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+}
+
+.twin-user-google-responses-col2 h3 {
+  color: #646b79;
+  margin-bottom: 2rem;
+}
+.twin-user-google-responses-col2 span {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+}
+.twin-user-google-responses-col2 a {
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 20px;
+  margin-top: 4rem;
+}
+
+/* Define the User */
+.twin-define-user-container {
+  background-color: #e7eef3;
+  padding: 2rem 4rem;
+}
+.twin-define-user-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+  font-size: 42px;
+  line-height: 62px;
+  color: #646b79;
+}
+
+.twin-define-user-sub-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  font-size: 42px;
+  line-height: 62px;
+}
+
+.twin-user-content-intro p {
+  color: #646b79;
+}
+.twin-user-problem {
+  margin-bottom: 3%;
+}
+.twin-user-hypothesis {
+  margin-bottom: 3%;
+}
+
+.twin-user-customer-journey {
+  display: flex;
+  margin: 10% 0;
+}
+.twin-user-customer-col1 {
+  width: 50%;
+  padding-right: 5%;
+}
+.twin-user-customer-col1 h3 {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 21px;
+  margin-bottom: 2%;
+}
+.twin-user-customer-col1 p {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 36px;
+  color: #646b79;
+}
+
+/* User knowledge */
+
+.twin-user-knowledge-container {
+  padding: 2rem 4rem;
+}
+
+.twin-user-knowledge-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+  font-size: 42px;
+  line-height: 62px;
+
+  color: #646b79;
+}
+.twin-user-knowledge-sub-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  font-size: 42px;
+  line-height: 62px;
+
+  color: #222222;
+  margin-bottom: 5%;
+}
+
+.twin-user-knowledge-wire {
+  display: flex;
+}
+.twin-user-knowledge-wire-col1 {
+  width: 50%;
+  padding-right: 5%;
+}
+
+.twin-user-knowledge-wire img {
+  width: 50%;
+}
+
+.twin-user-knowledge-ui h2 {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 21px;
+  color: #000000;
+  margin-bottom: 2%;
+}
+
+/* Reflection */
+
+.twin-reflection h2 {
+  font-weight: 500;
+  font-size: 42px;
+  line-height: 62px;
+  /* identical to box height, or 148% */
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10%;
+
+  color: #646b79;
+}
+.twin-reflection-feedback {
+  font-weight: 600;
+  font-size: 42px;
+  line-height: 62px;
+  /* identical to box height, or 148% */
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  color: #222222;
+  margin-bottom: 4%;
+}
+.twin-reflection-content {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 34px;
+  color: #000000;
+}
+.twin-reflection-content h3 {
+  margin-bottom: 1%;
+}
+.twin-reflection-content li {
+  list-style: disc;
+  margin-left: 2rem;
+}
+
+.twin-reflection-content li,
+.twin-reflection-content p {
+  color: #646b79;
+}
+.twin-reflection-content p {
+  margin-top: 2%;
+}

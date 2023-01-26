@@ -1,6 +1,6 @@
 .hero_container {
   display: flex;
-  margin-top: 4rem;
+  margin-top: 10rem;
   justify-content: space-between;
 }
 
@@ -18,12 +18,19 @@
   color: #646464;
 }
 
+@media (max-width: 1024px) {
+  .hero_content_col1 {
+    font-size: 40px;
+  }
+}
+
 /* Col2 */
 .hero_content_col2 {
   width: 600px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  padding-left: 2rem;
 }
 .hero_content_col2_text {
   font-weight: 700;
@@ -38,4 +45,14 @@
 .hero_content_col2_link {
   font-weight: 700;
   font-size: 16px;
+}
+@media (max-width: 1263px) {
+  .hero_content_col2 p {
+    font-size: 16px;
+    line-height: 26px;
+  }
+}
+
+.divider {
+  border: solid black 1px;
 }

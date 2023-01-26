@@ -7,22 +7,22 @@ import './styles.css';
 function NavBar() {
   return (
     <nav className="navbar_main_container">
-      <header className="navbar_logo_container">
-        <a href="#">
+      <header>
+        <a href="/" className="navbar_logo_container">
           <Logo />
+          <h1 className="navbar_logo_name">MELANIE MALDONADO</h1>
         </a>
-        <h1 className="navbar_logo_container_firstLast">MELANIE MALDONADO</h1>
       </header>
       <div className="navbar_menu_container">
         <ul className="navbar_menu_container_list">
           <li>
-            <a href="#">Home</a>
+            <a href="/">Home</a>
           </li>
           <li>
-            <a href="#">About</a>
+            <a href="/about">About</a>
           </li>
           <li>
-            <a href="#">Projects</a>
+            <a href="/#project-list">Projects</a>
           </li>
         </ul>
       </div>

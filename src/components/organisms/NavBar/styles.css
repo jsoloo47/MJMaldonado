@@ -2,17 +2,27 @@
   display: flex;
   justify-content: space-between;
   color: var(--nav-font-color);
+  padding: 1rem 7rem;
+  border-bottom: black 1px solid;
 }
 .navbar_logo_container {
   display: flex;
+
+  justify-content: center;
   align-items: center;
 }
-.navbar_logo_container_firstLast {
+.navbar_logo_name {
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
   line-height: 28px;
   margin-left: 3rem;
+}
+
+@media (max-width: 860px) {
+  .navbar_logo_name {
+    display: none;
+  }
 }
 
 .navbar_menu_container {

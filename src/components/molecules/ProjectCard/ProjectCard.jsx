@@ -1,9 +1,11 @@
 import React from 'react';
+
 import Tag from '../../atoms/Tag/Tag';
-import JUI1 from '/src/assets/JUI1.svg';
-import JUI2 from '/src/assets/JUI2.svg';
-import CCE from '/src/assets/CCE.svg';
-import TWIN from '/src/assets/TWIN.svg';
+import JUI1 from '/src/assets/PCImgs/JUI1.svg';
+import JUI2 from '/src/assets/PCImgs/JUI2.svg';
+import CCE from '/src/assets/PCImgs/CCE.svg';
+import TWIN from '/src/assets/PCImgs/TWIN.svg';
+
 import './styles.css';
 
 export default function ProjectCard({ project, flipped }) {

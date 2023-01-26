@@ -1,0 +1,127 @@
+.cce-whiteHalf {
+  background-color: white;
+  padding: 3rem 5rem;
+}
+
+.cce-overview {
+  display: flex;
+}
+.cce-overview-col1 {
+  width: 60%;
+}
+.cce-title {
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 75px;
+  margin-bottom: 10%;
+}
+
+.cce-overview-col1 h2 {
+  font-weight: 600;
+  font-size: 42px;
+  line-height: 62px;
+  margin-bottom: 5%;
+}
+.cce-overview-col1 p {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+}
+/* col2 */
+
+.cce-overview-col2 {
+  position: relative;
+  top: -47px;
+  right: -80px;
+}
+
+/* After hero */
+
+.cce-desc {
+  margin-top: 12%;
+}
+.cce-teams {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.cce-teams h2 {
+  font-weight: 500;
+  font-size: 42px;
+  line-height: 62px;
+}
+.cce-teams p {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+  width: 70%;
+}
+
+.divider-dotted {
+  margin: 10% 0;
+  border-bottom: dashed 1px black;
+}
+
+.cce-research-process {
+  display: flex;
+}
+
+.cce-research-process-col1 {
+  font-weight: 500;
+  font-size: 42px;
+  line-height: 62px;
+
+  margin-right: 10%;
+}
+
+.cce-research-process-col2 {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 36px;
+}
+.cce-blueBg {
+  background-color: #f6f6f6;
+  padding: 3rem 7rem;
+}
+.cce-blueBg-title {
+  font-weight: 500;
+  font-size: 42px;
+  line-height: 62px;
+  margin-bottom: 5%;
+}
+
+.underlined {
+  text-decoration: underline;
+}
+
+#cce-main-img {
+  margin: 5rem 0;
+}
+
+.cce-carosel {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  gap: 8%;
+  margin: 5% 0;
+}
+
+.cce-blueBg-summary {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  margin: 5% 0;
+}
+.cce-contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  text-align: center;
+
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 36px;
+  padding: 10%;
+}

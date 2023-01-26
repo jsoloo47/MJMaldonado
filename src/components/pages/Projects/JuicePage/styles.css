@@ -1,0 +1,336 @@
+.JUI-page {
+  max-width: 1440px;
+}
+.JUI-Hero {
+  height: 705px;
+  padding: 0 4rem;
+}
+.JUI-Hero img {
+  position: absolute;
+  top: 85px;
+  left: 50%;
+  transform: translate(-50%);
+  z-index: -1;
+}
+.JUI-Hero-title {
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 75px;
+
+  color: #000000;
+  margin: 4rem 0;
+}
+.JUI-Hero-subtitle {
+  font-weight: 600;
+  font-size: 42px;
+  line-height: 62px;
+  margin: 4rem 0;
+
+  color: #262a4f;
+}
+.JUI-Hero-text {
+  width: 50%;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 36px;
+
+  color: #000000;
+}
+
+/* Objectives */
+.JUI-objectives {
+  padding: 0 4rem;
+  margin-bottom: 5rem;
+}
+.JUI-objectives-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  font-size: 42px;
+  line-height: 62px;
+
+  color: #262a4f;
+  margin-bottom: 2rem;
+}
+.JUI-objectives-list-item {
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 36px;
+  padding-left: 13%;
+
+  color: #000000;
+}
+
+/* User Based */
+.JUI-user-based-title {
+  font-weight: 600;
+  font-size: 42px;
+  line-height: 62px;
+  /* identical to box height, or 148% */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  color: #262a4f;
+}
+.JUI-user-based-content {
+  display: flex;
+  padding: 2rem 6rem 0;
+}
+.JUI-user-based-content-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+
+  color: #000000;
+}
+/* User Interviews */
+.JUI-interviews {
+  padding: 0 4rem;
+  margin: 3rem 0;
+}
+.JUI-interviews-title {
+  font-weight: 600;
+  font-size: 42px;
+  line-height: 62px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  color: #262a4f;
+  margin-bottom: 3rem;
+}
+
+.JUI-interviews-content-list {
+  width: fit-content;
+  padding: 3rem;
+  background: #e8e8e8;
+  border-radius: 20px;
+}
+.JUI-interviews-content-text {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  margin-bottom: 2rem;
+
+  color: #000000;
+}
+.JUI-interviews-content-list {
+  font-style: italic;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  /* or 160% */
+  display: flex;
+  align-items: center;
+
+  color: #262a4f;
+}
+/* Usability Testing */
+.JUI-testing {
+  padding: 0 4rem;
+  margin: 3rem 0;
+}
+.JUI-testing-title {
+  font-weight: 600;
+  font-size: 42px;
+  line-height: 62px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  color: #262a4f;
+  margin-bottom: 3rem;
+}
+
+.JUI-testing-content-text {
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 36px;
+
+  color: #000000;
+}
+
+.italic {
+  font-style: italic;
+}
+.JUI-testing-recorded {
+  margin-top: 2rem;
+  width: fit-content;
+  padding: 2rem;
+  background: #e8e8e8;
+  border-radius: 50px;
+}
+/* Identifying */
+
+.JUI-identifying {
+  padding: 0 4rem;
+  margin: 3rem 0;
+}
+.JUI-identifying-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  font-size: 42px;
+  line-height: 62px;
+
+  color: #262a4f;
+}
+.JUI-identifying-content {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 2rem;
+}
+.JUI-identifying-content-col1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 50%;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 36px;
+
+  color: #000000;
+}
+
+.JUI-identifying-content-col1 span {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 21px;
+
+  color: #000000;
+}
+.JUI-identifying-content-col2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+/* Define */
+.JUI-defining-user {
+  padding: 0 4rem;
+  margin: 3rem 0;
+}
+.JUI-defining-user-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  font-size: 42px;
+  line-height: 62px;
+
+  color: #262a4f;
+}
+.JUI-defining-user-content {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  color: #000000;
+}
+.JUI-defining-user-content-img {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem 0;
+}
+.JUI-img-title {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 21px;
+  margin-bottom: 2rem;
+  color: #000000;
+}
+
+/* Redesign */
+.JUI-redesign {
+  padding: 0 4rem;
+  margin: 3rem 0;
+}
+
+.JUI-redesign-title {
+  font-weight: 600;
+  font-size: 42px;
+  line-height: 62px;
+  /* identical to box height, or 148% */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  color: #262a4f;
+  margin-bottom: 4rem;
+}
+.JUI-redesign-experience {
+  display: flex;
+  margin-bottom: 7rem;
+}
+.JUI-redesign-experience-col1 {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+.JUI-redesign-experience-col1 h3 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  margin-bottom: 3.5rem;
+
+  color: #000000;
+}
+.JUI-redesign-experience-col1 p {
+  padding: 0 3rem 0 0;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+
+  color: #000000;
+}
+
+.JUI-redesign-experience-col2 {
+  display: flex;
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+}
+.underline {
+  text-decoration: underline;
+}
+
+/* Reflection */
+
+.JUI-reflection {
+  padding: 0 4rem;
+  margin: 3rem 0;
+  background-image: url(../../../../assets/JUI-reflection.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.JUI-reflection-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-weight: 600;
+  font-size: 42px;
+  line-height: 62px;
+
+  color: #646b79;
+  background-color: #f1f2f6;
+}
+.JUI-reflection-content {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+
+  color: #000000;
+  padding: 2rem;
+  background-color: rgba(255, 255, 255, 80%);
+}

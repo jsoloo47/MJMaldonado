@@ -19,7 +19,7 @@ const projects = [
     'Juice It Up Mobile App',
     'Case Study: Looking for pain points on the reward app UI',
     '#',
-    'https://google.com',
+    '/projects/juice-it-up',
     ['Research', 'UX Design', 'Product Design'],
     'JUI'
   ),
@@ -27,7 +27,7 @@ const projects = [
     'Center for Community Engagement',
     'Market Research for Digital Messaging Strategy',
     '#',
-    'https://google.com',
+    '/projects/cce',
     ['Market Research', 'Digital messaging', 'Copywriting'],
     'CCE'
   ),
@@ -35,7 +35,7 @@ const projects = [
     'Twinstarz User Research',
     'UX Research for the re-branding and web design of a small business, Twinstarz',
     '#',
-    'https://google.com',
+    '/projects/twin-starz',
     ['UX Research', 'Interaction Design', 'UI Interaction'],
     'TWIN'
   ),
@@ -43,7 +43,7 @@ const projects = [
 
 export default function Projects() {
   return (
-    <section>
+    <section id="project-list">
       {projects.map((project) => (
         <ProjectCard
           project={project}

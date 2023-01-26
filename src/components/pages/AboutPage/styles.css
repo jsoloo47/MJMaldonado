@@ -1,0 +1,140 @@
+.about-page-container {
+  overflow: clip;
+}
+
+.about-me-hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2% 7%;
+}
+
+.about-me-social-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+  gap: 10%;
+}
+
+.about-me-col2 {
+  margin-left: 5%;
+  width: 50%;
+  height: 100%;
+}
+
+.about-me-col2 h1 {
+  margin-bottom: 2rem;
+  font-weight: 500;
+  font-size: 50px;
+  line-height: 75px;
+}
+
+.about-me-col2 span {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 28px;
+}
+
+.about-me-col2 p {
+  margin-top: 2rem;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  margin-bottom: 10%;
+}
+
+.about-me-col2 a {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 28px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #898ea2;
+}
+.about-me-skillset {
+  font-weight: 500;
+  font-size: 42px;
+  line-height: 62px;
+  margin-left: 18%;
+  margin-bottom: 5%;
+}
+.skillset-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.skillset-content {
+  width: fit-content;
+}
+
+.skillset-load-more {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5%;
+  width: 100%;
+  height: 300px;
+  position: relative;
+  bottom: 15rem;
+
+  background: linear-gradient(
+    180deg,
+    rgba(249, 249, 249, 0.4) 8.85%,
+    #f9f9f9 25%
+  );
+}
+
+.toggled {
+  transition: height 0.5s ease-in-out;
+}
+
+.about-me-blog-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.about-me-blog-container h2 {
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 75px;
+  margin-bottom: 4rem;
+}
+/* .about-me-blog-container h2::before {
+  content: 'FOLLOW MY BLOG';
+  display: block;
+  position: absolute;
+  right: 30%;
+  color: rgba(0, 0, 0, 0.25);
+} */
+
+.about-me-blog-container span {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 26px;
+  width: 40%;
+  margin-bottom: 4rem;
+}
+
+.about-me-blog-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 25px;
+  background-color: lightblue;
+  padding: 6px 20px;
+
+  margin-bottom: 5%;
+}
+#animu {
+  position: relative;
+  margin: -70px;
+  bottom: 150px;
+  left: 190px;
+}
