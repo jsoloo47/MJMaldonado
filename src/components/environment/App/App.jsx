@@ -13,12 +13,17 @@ import Footer from '../../organisms/Footer/Footer';
 import './App.css';
 
 function App() {
+  console.log('App');
   return (
     <div className="App">
       <NavBar />
       <Routes>
         <Route exact path="/" element={<HomePage />} />
-        <Route exact path="/about" element={<About />} />
+        <Route
+          exact
+          path="https://melaniemaldonado1.netlify.app/about"
+          element={<About />}
+        />
         <Route exact path="/projects/cce" element={<CCEPage />} />
         <Route exact path="/projects/twin-starz" element={<TwinPage />} />
         <Route exact path="/projects/juice-it-up" element={<JUIPage />} />
