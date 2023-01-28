@@ -123,3 +123,7 @@ pre {
 :where(dialog:modal) {
   all: revert;
 }
+
+html {
+  scroll-behavior: smooth;
+}
