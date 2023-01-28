@@ -1,8 +1,16 @@
 import React from 'react';
+import TextLoop from '../../molecules/TextLoop/TextLoop';
 
 import './styles.css';
 
 function Hero() {
+  const texts = [
+    'I am a UX Designer',
+    'I am a Front-End Developer',
+    'I value empathy & collaboration',
+    'I am a curious creative',
+  ];
+
   return (
     <div className="hero_container">
       <div className="hero_content_col1">
@@ -10,6 +18,7 @@ function Hero() {
         <p className="hero_content_col1_text">
           I value empathy & collaboration
         </p>
+        {/* <TextLoop text={texts} /> */}
       </div>
       <div className="divider"></div>
       <div className="hero_content_col2">

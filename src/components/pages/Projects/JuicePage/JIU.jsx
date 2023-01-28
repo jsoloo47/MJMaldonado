@@ -15,7 +15,7 @@ import './styles.css';
 export default function JIU() {
   return (
     <div className="JUI-page">
-      <div className="JUI-Hero">
+      <div className="JUI-Hero ">
         <img src={JUIHeroBG} alt="" />
         <div className="JUI-Hero-title">Juice It Up Mobile App: Redesign</div>
         <div className="JUI-Hero-subtitle">Background</div>
@@ -35,13 +35,13 @@ export default function JIU() {
             1. Facilitate a better user experience for Juice It Up's app by
             improving its UI
           </div>
-          <div className="JUI-objectives-list-item">
+          <div className="JUI-objectives-list-item JUI-last-item">
             2. Take full ownership of roles involved in desiging a product. User
             research, UX design , Product Design
           </div>
         </div>
       </div>
-      <div className="JUI-user-based">
+      <div className="JUI-user-based margin-top-10">
         <div className="JUI-user-based-title">User-based Process</div>
         <div className="JUI-user-based-content">
           <img src={JIUuserBased} alt="" />
@@ -66,7 +66,7 @@ export default function JIU() {
           </div>
         </div>
       </div>
-      <div className="JUI-interviews">
+      <div className="JUI-interviews margin-top-10">
         <div className="JUI-interviews-title">User Interviews</div>
         <div className="JUI-interviews-content">
           <div className="JUI-interviews-content-text">
@@ -126,7 +126,7 @@ export default function JIU() {
           </div>
         </div>
       </div>
-      <div className="JUI-testing">
+      <div className="JUI-testing margin-top-10">
         <div className="JUI-testing-title">Usability Testing</div>
         <div className="JUI-testing-content-text">
           <p>
@@ -164,7 +164,7 @@ export default function JIU() {
           </div>
         </div>
       </div>
-      <div className="JUI-identifying">
+      <div className="JUI-identifying margin-top-10">
         <div className="JUI-identifying-title">Identifying the Problem</div>
         <div className="JUI-identifying-content">
           <div className="JUI-identifying-content-col1">
@@ -184,7 +184,7 @@ export default function JIU() {
           </div>
         </div>
       </div>
-      <div className="JUI-defining-user">
+      <div className="JUI-defining-user margin-top-10 ">
         <div className="JUI-defining-user-title">Defining the User</div>
         <div className="JUI-defining-user-content">
           <p>
@@ -199,7 +199,7 @@ export default function JIU() {
           </div>
         </div>
       </div>
-      <div className="JUI-redesign">
+      <div className="JUI-redesign margin-top-10">
         <div className="JUI-redesign-title">Redesigning the App</div>
         <div className="JUI-redesign-content">
           <div className="JUI-redesign-experience">

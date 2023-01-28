@@ -9,13 +9,11 @@
   font-weight: 400;
   font-size: 50px;
   text-align: start;
-  max-width: 546px;
+  width: 546px;
+  height: 320px;
 }
 .hero_content_col1_title {
   margin-bottom: 3rem;
-}
-.hero_content_col1_text {
-  color: #646464;
 }
 
 @media (max-width: 1024px) {

@@ -1,0 +1,54 @@
+.textloop {
+  position: relative;
+  overflow: hidden;
+  font-size: 40px;
+  height: 150px;
+}
+
+.hero_content_col1_text {
+  color: #646464;
+}
+
+@keyframes fade {
+  0% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  100% {
+    -webkit-transform: translateY(-100px);
+    transform: translateY(-100px);
+  }
+}
+@keyframes animate {
+  0% {
+    opacity: 0;
+    transform: translateY(100%);
+  }
+  5%,
+  20% {
+    opacity: 0.4;
+    transform: translateY(100%);
+  }
+  25%,
+  40% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+  45%,
+  60% {
+    opacity: 0.4;
+    transform: translateY(-100%);
+  }
+  65%,
+  100% {
+    opacity: 0;
+    transform: translateY(-100%);
+  }
+}
+
+.test {
+  height: 100px;
+  width: 100px;
+
+  background-color: red;
+}

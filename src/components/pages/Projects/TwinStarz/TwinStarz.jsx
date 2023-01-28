@@ -43,7 +43,7 @@ export default function TwinStarz() {
           <img src={twinMain} alt="Project Preview" />
         </div>
       </div>
-      <div className="twin-card-container">
+      <div className="twin-card-container margin-top-3">
         <div className="twin-card">
           <div className="twin-card-title">CLIENT/TIMELINE</div>
           <div className="twin-card-text">
@@ -81,7 +81,7 @@ export default function TwinStarz() {
           </div>
         </div>
       </div>
-      <div className="twin-client-container">
+      <div className="twin-client-container margin-top-5">
         <h2 className="twin-client-title">About the Client</h2>
         <p className="twin-client-text">
           Before the first-round of research, an interview with the creators of
@@ -121,7 +121,7 @@ export default function TwinStarz() {
           </div>
         </div>
       </div>
-      <div className="twin-user-container">
+      <div className="twin-user-container margin-top-5">
         <h2 className="twin-user-title">Understanding the User</h2>
         <h2 className="twin-user-sub-title">Our Approach</h2>
         <div className="twin-user-card-container">
@@ -184,7 +184,7 @@ export default function TwinStarz() {
           </div>
         </div>
       </div>
-      <div className="twin-post-card-info">
+      <div className="twin-post-card-info margin-top-5">
         <div className="twin-post-card-content">
           I conducted user interviews with individuals who are familiar with
           online shopping to identify their pain points and needs. Due to the
@@ -231,7 +231,7 @@ export default function TwinStarz() {
           </div>
         </div>
       </div>
-      <div className="twin-define-user-container">
+      <div className="twin-define-user-container margin-top-5">
         <h2 className="twin-define-user-title">Defining the User</h2>
         <h2 className="twin-define-user-sub-title">Meet Suzy</h2>
         <section className="twin-define-user-content-container">
@@ -298,7 +298,7 @@ export default function TwinStarz() {
           </div>
         </section>
       </div>
-      <div className="twin-user-knowledge-container">
+      <div className="twin-user-knowledge-container margin-top-3">
         <h2 className="twin-user-knowledge-title">
           User Knowledge Application
         </h2>

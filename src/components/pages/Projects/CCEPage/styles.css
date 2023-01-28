@@ -23,8 +23,8 @@
   margin-bottom: 5%;
 }
 .cce-overview-col1 p {
-  font-weight: 500;
-  font-size: 24px;
+  font-weight: 400;
+  font-size: 22px;
   line-height: 36px;
 }
 /* col2 */
@@ -52,7 +52,7 @@
 }
 .cce-teams p {
   font-weight: 400;
-  font-size: 24px;
+  font-size: 20px;
   line-height: 36px;
   width: 70%;
 }
@@ -76,7 +76,7 @@
 
 .cce-research-process-col2 {
   font-weight: 400;
-  font-size: 18px;
+  font-size: 20px;
   line-height: 36px;
 }
 .cce-blueBg {
