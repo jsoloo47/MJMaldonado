@@ -16,7 +16,11 @@ export default function Footer() {
         >
           <img src={linkedIn} alt="linkedIn logo" />
         </a>
-        <a className="social-link-bg" href="#" target={'_blank'}>
+        <a
+          className="social-link-bg"
+          href="https://www.instagram.com/a.nimu/"
+          target={'_blank'}
+        >
           <img src={Instagram} alt="instagram logo" />
         </a>
       </div>

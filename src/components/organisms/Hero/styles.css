@@ -11,9 +11,21 @@
   text-align: start;
   width: 546px;
   height: 320px;
+  padding-right: 2rem;
 }
 .hero_content_col1_title {
   margin-bottom: 3rem;
+}
+.hero_content_col1_text {
+  font-size: 40px;
+  color: #646464;
+  position: absolute;
+}
+.textloop {
+  position: relative;
+  overflow: hidden;
+  font-size: 40px;
+  height: 150px;
 }
 
 @media (max-width: 1024px) {

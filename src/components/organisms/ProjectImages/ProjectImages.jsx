@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { Carousel } from 'react-responsive-carousel';
 
+import Gallery from 'react-photo-gallery';
+
 import useWindowSize from '../../atoms/WindowSize/useWindowSize.jsx';
 
 import sentenceS from '../../../assets/ProjectImages/sentenceS.svg';
@@ -25,47 +27,30 @@ export default function ProjectImages() {
     setCarousel(width < 1209);
   }, [width]);
 
-  return carousel ? (
-    <Carousel showArrows={true} dynamicHeight={false} infiniteLoop={true}>
-      <div>
-        <img src={sentenceS} />
-        <p className="legend">Project 1</p>
-      </div>
-      <div>
-        <img src={img4} />
-        <p className="legend">Legend 4</p>
-      </div>
-      <div>
-        <img src={img5} />
-        <p className="legend">Legend 5</p>
-      </div>
-      <div>
-        <img src={img6} />
-        <p className="legend">Legend 6</p>
-      </div>
-    </Carousel>
-  ) : (
-    <section className="blue-half-img-container">
-      <div className="flex-row">
-        <img src={sentenceS} />
-        <img src={img2} />
-      </div>
-      <div className="flex-row">
-        <img src={img3} />
-        <img src={img4} />
-      </div>
-      <div className="flex-row">
-        <img src={img5} />
-        <img src={img6} />
-      </div>
-      <div className="flex-row">
-        <img src={img7} />
-        <img src={img8} />
-      </div>
-      <div className="flex-row">
-        <img src={img9} />
-        <img src={img10} />
-      </div>
-    </section>
+  return (
+    <>
+      <section className="blue-half-img-container">
+        <div className="flex-row">
+          <img src={sentenceS} />
+          <img src={img2} />
+        </div>
+        <div className="flex-row">
+          <img src={img3} />
+          <img src={img4} />
+        </div>
+        <div className="flex-row">
+          <img src={img5} />
+          <img src={img6} />
+        </div>
+        <div className="flex-row">
+          <img src={img7} />
+          <img src={img8} />
+        </div>
+        <div className="flex-row">
+          <img src={img9} />
+          <img src={img10} />
+        </div>
+      </section>
+    </>
   );
 }

@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { animate, motion } from 'framer-motion';
 
 import profilePic from '../../../assets/aboutIMGs/group29.png';
 import skills from '../../../assets/aboutIMGs/group51.png';
@@ -10,18 +11,21 @@ import Instagram from '/src/assets/socialLogos/Instagram.svg';
 import './styles.css';
 
 export default function About() {
-  const [toggle, setToggle] = useState(false);
-  console.log(toggle);
+  const [toggle, setToggle] = useState(true);
+
   return (
     <section className="about-page-container">
       <div className="about-me-hero">
         <div className="about-me-col1">
           <img src={profilePic} alt="A profile pic" />
           <div className="about-me-social-links">
-            <a href="#">
+            <a
+              href="https://www.linkedin.com/in/melaniejmaldonado/"
+              target={'_blank'}
+            >
               <img src={linkedIn} alt="linkedIn logo" />
             </a>
-            <a href="#">
+            <a href="https://www.instagram.com/a.nimu/" target={'_blank'}>
               <img src={Instagram} alt="instagram logo" />
             </a>
           </div>
@@ -57,14 +61,15 @@ export default function About() {
       <div className="skillset-container">
         <div className="skillset-content">
           <img src={skills} alt="" />
-          <div
-            className={
-              toggle ? 'skillset-load-more toggled' : 'skillset-load-more'
-            }
+          <motion.div
+            className="skillset-load-more"
+            animate={{
+              y: toggle ? '0' : '200px',
+            }}
             onClick={() => setToggle(!toggle)}
           >
-            LOAD MORE
-          </div>
+            {toggle ? 'LOAD MORE' : 'HIDE'}
+          </motion.div>
         </div>
       </div>
       <div className="about-me-blog-container">
