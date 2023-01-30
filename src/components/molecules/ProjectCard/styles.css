@@ -75,7 +75,11 @@
 .flipped {
   flex-direction: row-reverse;
 }
-
+@media only screen and (min-width: 1278px) and (max-width: 1378px) {
+  .project-card {
+    padding: 0;
+  }
+}
 @media (max-width: 1276px) {
   .project-card__image {
     width: 250px;

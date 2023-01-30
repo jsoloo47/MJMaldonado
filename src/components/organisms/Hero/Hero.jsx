@@ -51,7 +51,7 @@ function Hero() {
           through research and interactive design.
         </p>
         <p>Making life just a little bit easier.</p>
-        <a href="#" className="hero_content_col2_link">
+        <a href="#project-list" className="hero_content_col2_link">
           Check out my work below
         </a>
       </div>
