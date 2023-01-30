@@ -1,8 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Carousel } from 'react-responsive-carousel';
 
-import Gallery from 'react-photo-gallery';
-
 import useWindowSize from '../../atoms/WindowSize/useWindowSize.jsx';
 
 import sentenceS from '../../../assets/ProjectImages/sentenceS.svg';
