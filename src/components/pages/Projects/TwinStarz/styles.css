@@ -34,7 +34,7 @@
 .twin-hero-left-text span {
   color: #646b79;
 }
-/* Cards */
+/* Intro Cards */
 .twin-card-container {
   display: flex;
   padding: 2rem 4rem;
@@ -144,42 +144,36 @@
 
 .twin-user-card-container {
   display: flex;
+  flex-direction: column;
   gap: 2rem;
   padding: 2rem 4rem;
 }
-.twin-card {
+.twin-user-card {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }
 
-.twin-card img {
-  width: 150px;
-  height: 150px;
+.twin-user-card img {
+  max-width: 150px;
+  max-height: 150px;
+  margin-right: 5%;
 }
 
 .twin-card-content {
   padding: 1.5rem 2rem;
-  background: #e7eef3;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  border-radius: 32px;
   font-weight: 500;
   font-size: 24px;
   line-height: 40px;
 
   color: #646b79;
 }
-.twin-user-title-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+/* 
+ */
+
 .twin-cards-title {
   display: flex;
-  justify-content: center;
+  justify-content: left;
   align-items: center;
-  width: 50%;
+  width: 200px;
   font-weight: 700;
   font-size: 16px;
   line-height: 21px;

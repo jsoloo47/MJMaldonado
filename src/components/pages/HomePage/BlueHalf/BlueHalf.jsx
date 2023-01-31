@@ -22,8 +22,8 @@ function BlueHalf() {
             </p>
           </div>
         </div>
+        <ProjectImages />
       </section>
-      <ProjectImages />
     </>
   );
 }

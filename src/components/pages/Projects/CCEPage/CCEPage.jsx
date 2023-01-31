@@ -1,6 +1,7 @@
 import React from 'react';
 
 import CCEContent from '../../../molecules/CCEContent/CCEContent';
+import { motion } from 'framer-motion';
 
 import cceCover from '../../../../assets/cce-cover.png';
 import dms1 from '../../../../assets/DMS1.png';
@@ -100,11 +101,21 @@ export default function CCEPage() {
           <CCEContent contentInfo={contentInfo[0]} />
           <img src={main} alt="CCE Homepage" id="cce-main-img" />
           <CCEContent contentInfo={contentInfo[1]} />
-          <div className="cce-carosel">
+          <motion.div
+            className="cce-carosel"
+            // Infinite loop
+            initial={{ x: 0 }}
+            animate={{ x: [100, 200, 300] }}
+            transition={{
+              duration: 4,
+              repeat: 1,
+              ease: 'linear',
+            }}
+          >
             <img src={car1} alt="" />
             <img src={car2} alt="" />
             <img src={car3} alt="" />
-          </div>
+          </motion.div>
           <div className="cce-blueBg-summary">
             The entire team collaborated on the design for a marketing campaign
             that resonated with CPP students through its messaging theme. CCE

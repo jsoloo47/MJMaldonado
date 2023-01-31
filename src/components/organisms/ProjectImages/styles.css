@@ -1,21 +1,13 @@
 .blue-half-img-container {
-  background-color: #898ea2;
-  display: grid;
-
-  grid-template-columns: auto;
-  grid-template-rows: minmax(auto-fit, 110px);
-  grid-row-gap: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 .flex-row {
   display: flex;
-  width: 100%;
-  height: fit-content;
   gap: 10px;
-  justify-content: center;
 }
-
-@media (max-width: 1024px) {
-  .flex-row {
-    height: 80%;
-  }
+.img-fluid {
+  object-fit: cover;
+  overflow: hidden;
 }

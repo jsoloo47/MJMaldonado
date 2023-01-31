@@ -125,7 +125,7 @@ export default function TwinStarz() {
         <h2 className="twin-user-title">Understanding the User</h2>
         <h2 className="twin-user-sub-title">Our Approach</h2>
         <div className="twin-user-card-container">
-          <div className="twin-card">
+          <div className="twin-user-card">
             <img src={userSearch} alt="search img" />
             <div className="twin-card-content">
               <div className="twin-user-title-container">
@@ -144,7 +144,7 @@ export default function TwinStarz() {
               </ol>
             </div>
           </div>
-          <div className="twin-card">
+          <div className="twin-user-card">
             <img src={userData} alt="search img" />
             <div className="twin-card-content">
               <div className="twin-user-title-container">
@@ -163,7 +163,7 @@ export default function TwinStarz() {
               </ul>
             </div>
           </div>
-          <div className="twin-card">
+          <div className="twin-user-card">
             <img src={userPlane} alt="search img" />
             <div className="twin-card-content">
               <div className="twin-user-title-container">

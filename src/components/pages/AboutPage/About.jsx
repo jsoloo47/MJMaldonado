@@ -54,7 +54,9 @@ export default function About() {
             managing relationships and efficiency in marketing and design
             projects.
           </p>
-          <a href="/resume">Checkout my resume</a>
+          <a href="https://www.linkedin.com/in/melaniejmaldonado/overlay/1635511851835/single-media-viewer/?profileId=ACoAACReKQwBY7kwhYwgsjkUohN3_f5fLpuupdc">
+            Checkout my resume
+          </a>
         </div>
       </div>
       <h2 className="about-me-skillset">Skillset</h2>

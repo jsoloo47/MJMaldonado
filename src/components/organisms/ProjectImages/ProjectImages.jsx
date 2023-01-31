@@ -1,7 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import { Carousel } from 'react-responsive-carousel';
-
-import useWindowSize from '../../atoms/WindowSize/useWindowSize.jsx';
 
 import sentenceS from '../../../assets/ProjectImages/sentenceS.svg';
 import img2 from '../../../assets/ProjectImages/img2.svg';
@@ -13,40 +10,32 @@ import img7 from '../../../assets/ProjectImages/img7.svg';
 import img8 from '../../../assets/ProjectImages/img8.svg';
 import img9 from '../../../assets/ProjectImages/img9.svg';
 import img10 from '../../../assets/ProjectImages/img10.svg';
-import 'react-responsive-carousel/lib/styles/carousel.min.css';
 
 import './styles.css';
 
 export default function ProjectImages() {
-  const { width, height } = useWindowSize();
-  const [carousel, setCarousel] = useState(width < 1209);
-
-  useEffect(() => {
-    setCarousel(width < 1209);
-  }, [width]);
-
   return (
     <>
       <section className="blue-half-img-container">
         <div className="flex-row">
-          <img src={sentenceS} />
-          <img src={img2} />
+          <img src={sentenceS} className="img-fluid" />
+          <img src={img2} className="img-fluid" />
         </div>
         <div className="flex-row">
-          <img src={img3} />
-          <img src={img4} />
+          <img src={img3} className="img-fluid" />
+          <img src={img4} className="img-fluid" />
         </div>
         <div className="flex-row">
-          <img src={img5} />
-          <img src={img6} />
+          <img src={img5} className="img-fluid" />
+          <img src={img6} className="img-fluid" />
         </div>
         <div className="flex-row">
-          <img src={img7} />
-          <img src={img8} />
+          <img src={img7} className="img-fluid" />
+          <img src={img8} className="img-fluid" />
         </div>
         <div className="flex-row">
-          <img src={img9} />
-          <img src={img10} />
+          <img src={img9} className="img-fluid" />
+          <img src={img10} className="img-fluid" />
         </div>
       </section>
     </>
