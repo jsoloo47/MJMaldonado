@@ -131,3 +131,9 @@
     margin-bottom: 2rem;
   }
 }
+
+@media (max-width: 767px) {
+  .project-card__content {
+    width: auto;
+  }
+}

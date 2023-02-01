@@ -42,3 +42,15 @@
 .navbar_menu_container_list li:hover {
   color: var(--nav-font-color-hover);
 }
+
+@media (max-width: 767px) {
+  .navbar_menu_container {
+    display: none;
+  }
+  .navbar_logo {
+    display: flex;
+  }
+  .navbar_main_container {
+    padding: 1rem 2rem;
+  }
+}

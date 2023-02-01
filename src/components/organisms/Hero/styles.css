@@ -96,3 +96,13 @@
     min-height: 200px;
   }
 }
+
+@media screen and (max-width: 480px) {
+  .hero_content_col1 {
+    font-size: 30px;
+  }
+  .hero_content_col2 p {
+    font-size: 16px;
+    line-height: 26px;
+  }
+}
