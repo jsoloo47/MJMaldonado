@@ -23,10 +23,13 @@ function Example({ text, index }) {
 
 function Hero() {
   const texts = [
-    'I am a UX Designer',
+    'I studied in marketing, research & messaging',
     'I value empathy & collaboration',
-    'I am a curious creative',
-    'I am a problem solver',
+    'I am a huge Marvel Universe fan',
+    'Seriously, I really love Marvel',
+    'I am a certified Wine and Beverage Specialist',
+    'I speak English and Spanish fluently',
+    'I like to write about my favorite cinematic experiences',
   ];
   const [index, setIndex] = useState(0);
 

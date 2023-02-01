@@ -1,3 +1,8 @@
 .white-half-container {
   padding: 0rem 7rem;
 }
+@media screen and (max-width: 1024px) {
+  .white-half-container {
+    padding: 0rem 4rem;
+  }
+}
