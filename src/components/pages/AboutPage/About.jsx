@@ -5,8 +5,9 @@ import profilePic from '../../../assets/aboutIMGs/group29.png';
 import skills from '../../../assets/aboutIMGs/group51.png';
 import blog from '../../../assets/aboutIMGs/blog-aboutMe.png';
 import animu from '../../../assets/aboutIMGs/drawme.png';
-import linkedIn from '/src/assets/socialLogos/linkedIn.svg';
-import Instagram from '/src/assets/socialLogos/Instagram.svg';
+
+import linkedIn from '/src/assets/socialLogos/linkedIn-000.png';
+import Instagram from '/src/assets/socialLogos/insta-000.png';
 
 import './styles.css';
 

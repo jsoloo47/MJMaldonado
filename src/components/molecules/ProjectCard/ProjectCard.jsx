@@ -1,4 +1,6 @@
 import React from 'react';
+// Motion Framer import
+import { motion } from 'framer-motion';
 
 import Tag from '../../atoms/Tag/Tag';
 import JUI1 from '/src/assets/PCImgs/JUI1.svg';
@@ -8,7 +10,7 @@ import TWIN from '/src/assets/PCImgs/TWIN.svg';
 
 import './styles.css';
 
-export default function ProjectCard({ project, flipped }) {
+export default function ProjectCard({ project }) {
   let img;
   switch (project.id) {
     case 'JUI':
@@ -29,9 +31,16 @@ export default function ProjectCard({ project, flipped }) {
       img = <img src={JUI1} alt={project.title} />;
   }
   return (
-    <div className={flipped ? 'project-card flipped' : 'project-card'}>
-      <div className={'project-card__image ' + project.id}>{img}</div>
-      <div className="project-card__content">
+    <motion.a
+      className={'project-card ' + project.id + '-content'}
+      whileHover={{
+        scale: 1.04,
+        transition: { duration: 0.2 },
+        height: '300px',
+      }}
+      href={project.link}
+    >
+      <div className="project-card__content ">
         <h2 className="project-card__title">{project.title}</h2>
         <p className="project-card__desc">{project.description}</p>
         <div className="project-card__tags">
@@ -39,10 +48,8 @@ export default function ProjectCard({ project, flipped }) {
             <Tag tag={tag} key={i} />
           ))}
         </div>
-        <a className="project-card__link" href={project.link}>
-          READ MORE
-        </a>
       </div>
-    </div>
+      <div className={'project-card__image ' + project.id}>{img}</div>
+    </motion.a>
   );
 }

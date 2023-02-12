@@ -45,11 +45,7 @@ export default function Projects() {
   return (
     <section id="project-list">
       {projects.map((project) => (
-        <ProjectCard
-          project={project}
-          key={project.id}
-          flipped={project.title === 'Center for Community Engagement'}
-        />
+        <ProjectCard project={project} key={project.id} />
       ))}
     </section>
   );
