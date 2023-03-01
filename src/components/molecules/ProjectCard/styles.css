@@ -3,11 +3,14 @@
 
   margin-top: 7rem;
   padding-left: 2rem;
-  background: #e6e2e0;
   height: 250px;
   overflow-y: hidden;
+  background: #e8e8e8;
   cursor: pointer;
   border-radius: 10px;
+}
+.project-card:hover {
+  background: #e6e2e0;
 }
 .project-card__image {
   width: 481px;
@@ -45,13 +48,9 @@
 
 .CCE-content {
   padding-left: 0;
-  background: #e8e8e8;
 }
 .JUI-content {
   justify-content: space-between;
-}
-.TWIN-content {
-  background: #e8e8e8;
 }
 
 .project-card__image {

@@ -26,6 +26,9 @@ function NavBar() {
           <li>
             <a href="/#project-list">Projects</a>
           </li>
+          <li>
+            <a href="/services">Services</a>
+          </li>
         </ul>
       </div>
     </nav>

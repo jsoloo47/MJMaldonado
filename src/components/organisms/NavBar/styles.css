@@ -13,7 +13,7 @@
 }
 .navbar_logo_name {
   font-style: normal;
-  font-weight: 700;
+  font-weight: 600;
   font-size: 14px;
   line-height: 28px;
   margin-left: 3rem;
@@ -34,8 +34,8 @@
   display: flex;
   width: 300px;
   justify-content: space-between;
-  font-weight: 700;
-  font-size: 14px;
+  font-weight: 300;
+  font-size: 16px;
   line-height: 20px;
 }
 

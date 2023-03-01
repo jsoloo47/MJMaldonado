@@ -1,0 +1,71 @@
+.services-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  background-color: #1e1e1e;
+  padding: 10rem 15rem;
+  color: #fff;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+}
+.header-col1 {
+  font-style: italic;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 45px;
+}
+.header-col2 {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  width: 50%;
+}
+.services-title {
+  font-weight: 400;
+  font-size: 18px;
+  margin: 10rem 0 1rem 0;
+}
+.services-content-grid {
+  display: grid;
+  margin: 4rem 0 10rem 0;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 2rem;
+}
+.grid-item {
+  background-color: #111;
+  text-align: left;
+}
+.grid-item-content h2 {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 32px;
+  margin-bottom: 1rem;
+  padding: 2rem 0 0 3rem;
+}
+.grid-item-content h3 {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 24px;
+  margin-bottom: 1rem;
+  padding: 0rem 3rem 0 3rem;
+}
+.grid-item-content p {
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 27px;
+  color: #a0a0a0;
+  padding: 0 3rem 2rem 3rem;
+}
+
+.grid-item:hover {
+  background-color: #e6e2e0;
+}
+.grid-item-content:hover h3,
+.grid-item-content:hover h2,
+.grid-item-content:hover p {
+  color: #000;
+}
