@@ -37,7 +37,7 @@ export default function Services() {
           </a>
         </div>
         <div className="grid-item">
-          <a href="src/assets/PDFs/MarketingProfile.pdf">
+          <a href="src/assets/MarketingProfile.pdf">
             <div className="grid-item-content">
               <h2>02</h2>
               <h3>Marketing</h3>
@@ -51,7 +51,7 @@ export default function Services() {
           </a>
         </div>
         <div className="grid-item">
-          <a href="src/assets/PDFs/Branding.pdf">
+          <a href="src/assets/Branding.pdf">
             <div className="grid-item-content">
               <h2>03</h2>
               <h3>Branding</h3>
@@ -66,7 +66,7 @@ export default function Services() {
           </a>
         </div>
         <div className="grid-item">
-          <a href="src/assets/PDFs/ContentWritingCreation.pdf">
+          <a href="src/assets/ContentWritingCreation.pdf">
             <div className="grid-item-content">
               <h2>04</h2>
               <h3>Content Writing</h3>
